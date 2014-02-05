@@ -1,0 +1,19 @@
+/* CSS document */
+.wp-pusher-notify {
+	position: fixed;
+	z-index: 9999;
+	bottom: 10px;
+	left: 10px;
+	background: white;
+	padding: 1em;
+	display: none;
+	font-size: 0.8em;
+}
+.wp-pusher-notify p {
+	margin: 0;
+}
+.wp-pusher-notify a.close-wp-pusher-notify {
+	position: absolute;
+	top: -2px;
+	right: 4px;
+}
