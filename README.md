@@ -16,6 +16,11 @@ Download this repository and also the [pusher-php-server](http://github.com/push
     git submodule init
     git submodule update
 
+Configuration
+-----
+
+The plugin has an options page created called WP Pusher under Settings in the WordPress dashboard. There are a limited amount of options (for now), including Pusher Active, App ID, Key, Secret, and Debug Javascript. If 'Pusher Active' is set to Inactive, the plugin will not function. Debug Javascript will log debugging information to the Javascript console on the frontend. The plugin will not function without the App ID, Key, or Secret.
+
 Changelog
 -----
 
