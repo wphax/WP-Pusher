@@ -5,6 +5,17 @@ WP Pusher is a simple plugin that (currently) notifies visitors of your WordPres
 
 Don't forget to download the [pusher-php-server](https://github.com/pusher/pusher-php-server) submodule as well. It will not authenticate users without it.
 
+Installation
+-----
+
+Download this repository and also the [pusher-php-server](http://github.com/pusher/pusher-php-server) submodule. Upload the contents to your `wp-content/plugins` folder and activate like normal in the WordPress dashbaord. For shell users, follow these instructions:
+
+    cd /path/to/wp-content/plugins
+    git clone git@github.com:wphax/WP-Pusher.git
+    cd WP-Pusher
+    git submodule init
+    git submodule update
+
 Changelog
 -----
 
