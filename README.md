@@ -11,7 +11,7 @@ Installation
 Download this repository and also the [pusher-php-server](http://github.com/pusher/pusher-php-server) submodule. Upload the contents to your `wp-content/plugins` folder and activate like normal in the WordPress dashbaord. For shell users, follow these instructions:
 
     cd /path/to/wp-content/plugins
-    git clone git@github.com:wphax/WP-Pusher.git
+    git clone https://github.com/wphax/WP-Pusher.git
     cd WP-Pusher
     git submodule init
     git submodule update
